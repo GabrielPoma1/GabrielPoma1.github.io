@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ff0000, #000000); /* Degradado rojinegro */
+}
+
+.container {
+    text-align: center;
+}
+
+.game-logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+/* Estilo del botón Start similar al estilo de la tarjeta */
+.start-btn {
+    background-color: #000;
+    border: 2px solid #FF4500;
+    border-radius: 15px;
+    padding: 20px; /* Ajustar el padding para hacerlo más pequeño */
+    max-width: 300px; /* Ajustar el ancho máximo */
+    width: 100%;
+    min-height: 80px; /* Ajustar la altura mínima */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Cambiar el color del texto a blanco */
+    font-size: 1.5rem; /* Ajustar el tamaño del texto */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.start-btn:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Efecto para mejorar la apariencia del botón al hacer clic */
+.start-btn:active {
+    transform: scale(0.98);
+}
